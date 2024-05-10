@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- CONFIGURAÇÕES BÁSICAS DO HTML -->
+    <link rel="stylesheet" href="style.css">
+    <!-- PUXAR O CSS PARA PERSONALIZAR LÁ -->
+    <title>JS Game</title> <!-- O NOME QUE APARECE NO TOPO NO NAVEGADOR -->
+</head>
+
+<body> <!-- O CORPO DO SITE -->
+    <div class="container"> <!-- A CAIXA DE MENSAGEM DO JOGO -->
+        <div class="container__conteudo"> <!-- CONTEUDO QUE APARECE APÓS CONSEGUIR O JOGO -->
+            <img src="./img/robot.png" alt="robô mergulhador" class="container__imagem-robo" /> <!-- IMAGEM DO ROBÔ QUE APARECE APÓS ACERTAR O RESULTADO -->
+            <div class="container__informacoes"> <!-- RETANGULO QUE APARECE DEPOIS ENVOLVENDO AS INFOS QUANDO ACERTA -->
+                <img src="./img/trophy.png" alt="ícone de um troféu" /> <!-- A IMAGEM DO TROFÉU NO FINAL -->
+                 <div class="container__texto"> <!-- A DIV PARA INSERIR E FORMATAR A PARTE DO TEXTO -->
+                    <h1>Você <span class="container__texto-azul">acertou!</span></h1>
+                    <h2>Você descobriu o número secreto!</h2> <!-- H1 E H2 OS TEXTOS QUANDO ACERTA -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
